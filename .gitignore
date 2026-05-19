@@ -2,8 +2,8 @@
 terraform/.terraform/
 *.tfstate
 *.tfstate.*
-crash.log
-*.tfvars
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
 
 # OS
 .DS_Store

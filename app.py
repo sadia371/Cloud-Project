@@ -12,7 +12,7 @@ choice = st.sidebar.selectbox("Menu", menu)
 
 # ------------------- SUBMIT COMPLAINT PAGE -------------------
 if choice == "Submit Complaint":
-    st.title("Submit a Complaint (AI APP)")
+    st.title("Submit a Complaint: (AI APP)")
 
     name = st.text_input("Your Name")
     department = st.text_input("Department")
